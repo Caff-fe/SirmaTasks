@@ -12,9 +12,9 @@ public class LoopsEasy {
             numbers[i] = Integer.parseInt(String.valueOf(numToCheck.charAt(i)));
         }
 
-        double sum = 0;
+        int sum = 0;
         for (int num : numbers) {
-            sum += Math.pow(num, numToCheck.length());
+            sum += (int) Math.pow(num, numToCheck.length());
         }
 
         if (sum == Integer.parseInt(numToCheck)) {

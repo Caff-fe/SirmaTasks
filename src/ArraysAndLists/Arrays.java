@@ -6,6 +6,20 @@ public class Arrays {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+        //Task 3
+//
+//        int[] numbers = {10,20,30,40,50};
+//
+//        int numbersLength = numbers.length;
+//        int[] reversed = new int[numbersLength];
+//
+//        for (int i = numbersLength -1; i >= 0; i--) {
+//            reversed[i] = numbers[numbersLength - i - 1];
+//        }
+//
+//        System.out.println(java.util.Arrays.toString(reversed));
+
+
         //Task 2
 //        int indexNum = Integer.parseInt(scan.nextLine());
 //

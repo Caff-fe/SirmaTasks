@@ -2,9 +2,12 @@ package ArraysAndLists;
 
 import java.util.Scanner;
 
-public class Arrays {
+public class ArraysExercise {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+
+        String[] arr = {"banana", "apple", "orange", "grape"};
+        
 
         //Task 3
 //

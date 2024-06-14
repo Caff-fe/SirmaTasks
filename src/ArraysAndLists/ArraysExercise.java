@@ -1,5 +1,6 @@
 package ArraysAndLists;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArraysExercise {
@@ -7,7 +8,9 @@ public class ArraysExercise {
         Scanner scan = new Scanner(System.in);
 
         String[] arr = {"banana", "apple", "orange", "grape"};
-        
+        Arrays.sort(arr);
+
+        System.out.println(Arrays.toString(arr));
 
         //Task 3
 //
